@@ -4,17 +4,16 @@
 
 <h1>Cloud-Native Firewall</h1>
 
-<p><strong>The Strategic Control Plane for Unified Network Security, Policy Orchestration, and Zero-Trust Enforcement</strong></p>
+<p><strong>The Institutional-Grade Platform for Standardized Security Foundations, Perimeter Governance, and Multi-Cloud Firewall Ecosystems.</strong></p>
 
-[![Standard: Zero--Trust](https://img.shields.io/badge/Standard-Zero--Trust-blue.svg?style=for-the-badge&labelColor=000000)]()
-[![Status: Production--Ready](https://img.shields.io/badge/Status-Production--Ready-indigo.svg?style=for-the-badge&labelColor=000000)]()
-[![Security: Perimeter--Hardened](https://img.shields.io/badge/Security-Perimeter--Hardened-green.svg?style=for-the-badge&labelColor=000000)]()
-[![Methodology: Policy--as--Code](https://img.shields.io/badge/Methodology-Policy--as--Code-ff69b4?style=for-the-badge&labelColor=000000)]()
+[![Standard: Security-Excellence](https://img.shields.io/badge/Standard-Security--Excellence-blue.svg?style=for-the-badge&labelColor=000000)]()
+[![Status: Production--Ready](https://img.shields.io/badge/Status-Production--Ready-emerald.svg?style=for-the-badge&labelColor=000000)]()
+[![Focus: Secure--Perimeter--Orchestration](https://img.shields.io/badge/Focus-Secure--Perimeter--Orchestration-indigo.svg?style=for-the-badge&labelColor=000000)]()
 
 <br/>
 
-> **"Traditional perimeters are gone. In the cloud-native world, identity is the new perimeter, but the network remains the ultimate enforcement layer."** 
-> Cloud-Native Firewall is an industrial-grade security orchestration platform designed to centralize the management of distributed firewalling across Azure, AWS, GCP, and Kubernetes.
+> **"Industrializing perimeter security to automate firewall foundations."** 
+> **Cloud-Native Firewall** is an enterprise-grade platform designed to provide a secure, measurable, and highly automated foundation for global security operations. It orchestrates the complex lifecycle of network security—from automated policy reconciliation and multi-cloud perimeter enforcement to high-throughput threat intelligence and unified security auditing.
 
 </div>
 
@@ -22,595 +21,263 @@
 
 ## 🏛️ Executive Summary
 
-The **Cloud-Native Firewall** is a premium, flagship security platform designed for CISOs, SOC leaders, and Network Security teams. As organizations adopt multi-cloud and microservices, the security perimeter has fragmented into thousands of disparate rules, endpoints, and policy formats.
+Fragmented perimeters and manual firewall rule management are strategic operational liabilities; lack of a standardized cloud-native firewall framework is a primary barrier to organizational engineering maturity. Organizations fail to secure their network boundaries not because of a lack of rules, but because of fragmented enforcement standards, lack of automated policy reconciliation, and an inability to orchestrate security planes with operational precision.
 
-This platform provides a **Unified Control Plane** for network security, abstracting the complexity of Azure Firewall, AWS Network Firewall, and Kubernetes Network Policies into a single, auditable governance model. It empowers organizations to implement **Zero-Trust Microsegmentation** at scale, ensuring that every packet is authorized, every drift is detected, and every policy is versioned.
-
----
-
-## 💡 Why Cloud-Native Firewalls Matter
-
-Legacy hardware-based firewalls cannot keep pace with the ephemeral nature of cloud resources.
-- **Microservices Complexity**: Protecting east-west traffic between thousands of pods.
-- **Multi-Cloud Fragmentation**: Managing security rules in three different provider portals.
-- **Policy Drift**: The risk of "temporary" rules becoming permanent security holes.
-- **Audit & Compliance**: The need for centralized evidence that the perimeter is actually secure.
+This platform provides the **Security Intelligence Plane**. It implements a complete **Cloud-Native-Firewall-as-Code Framework**, enabling CISOs and Network Security teams to manage global security foundations as first-class citizens. By automating the identification of boundary regressions through real-time telemetry analysis and orchestrating the provisioning of secure performance-driven security policies, we ensure that every organizational network—from core transit hubs to edge microservice pods—is secured by default, audited for history, and strictly aligned with institutional security frameworks.
 
 ---
 
-## 🚀 Business Outcomes
+## 📐 Architecture Storytelling: Principal Reference Models
 
-### 🎯 Strategic Security Impact
-- **100% Policy Consistency**: Unified rules applied across all cloud providers and clusters.
-- **90% Reduction in Lateral Movement**: Granular microsegmentation preventing attackers from pivoting.
-- **Automated Drift Remediation**: Real-time correction of unauthorized firewall changes.
-- **Zero-Touch Compliance**: Automated generation of SOC2, HIPAA, and PCI network evidence.
-
----
-
-## 🛡️ Zero Trust Network Framework
-
-The platform is built on the **Zero Trust Architecture (ZTA)** as defined by NIST 800-207:
-1. **Verify Explicitly**: Always authenticate and authorize based on all available data points.
-2. **Use Least Privilege**: Limit user/service access with Just-In-Time and Just-Enough-Access (JIT/JEA).
-3. **Assume Breach**: Minimize blast zones and segment access. Verify end-to-end encryption.
-
----
-
-## 🏗️ Security Segmentation Model
-
-| Tier | Enforcement | Strategy |
-|---|---|---|
-| **Perimeter** | North-South | Strict ingress/egress filtering at the cloud edge. |
-| **VPC / VNet** | Hub-Spoke | Centralized firewalling for inter-network traffic. |
-| **Subnet** | Network Security Groups | Macro-segmentation by workload type. |
-| **Microservice** | K8s NetworkPolicy | Granular, pod-to-pod east-west protection. |
-
----
-
-## 🛠️ Technical Stack
-
-| Layer | Technology | Rationale |
-|---|---|---|
-| **Policy Engine** | Python / FastAPI | High-performance API for complex rule reconciliation. |
-| **Orchestration** | Terraform | Standardized multi-cloud provider delivery. |
-| **Frontend** | React 18, Vite | Premium, reactive security management board. |
-| **Data Persistence** | PostgreSQL | Relational storage for versioned policies and audit logs. |
-| **Messaging** | Redis | Real-time event bus for drift detection and alerts. |
-| **Security Scanning** | Checkov / OPA | Automated policy validation and risk scoring. |
-
----
-
-## 📐 Architecture Storytelling: 45+ Diagrams
-
-### 1. Executive High-Level Architecture
-The holistic view of security policies moving from authoring to global enforcement.
-
-```mermaid
-graph TD
-    User[Security Architect] --> Portal[Firewall Dashboard]
-    Portal --> API[Policy API]
-    API --> Engine[Policy Reconciliation Engine]
-    Engine --> DB[(PostgreSQL: Versioned Policies)]
-    Engine --> Azure[Azure Firewall]
-    Engine --> AWS[AWS Network Firewall]
-    Engine --> K8s[K8s NetworkPolicy]
-    Engine --> Analytics[Threat Analytics Pipeline]
-```
-
-### 2. Detailed Component Topology
-The internal service mesh and data boundaries of the security platform.
+### 1. Principal Architecture: Global Cloud-Native Firewall & Security Intelligence Plane
+This diagram illustrates the end-to-end flow from security telemetry ingestion and multi-cloud orchestration to perimeter enforcement, performance validation, and institutional security auditing.
 
 ```mermaid
 graph LR
-    subgraph "Control Plane"
-        UI[Static Web App]
-        API_Svc[API Gateway]
-        Worker[Drift Detector]
+    %% Subgraph Definitions
+    subgraph SecurityIngress["Boundary & Policy Ingress"]
+        direction TB
+        Traffic_Signals["North-South Ingress / East-West Flows"]
+        Policy_Definitions["IPSec / mTLS / Rule Definitions"]
+        Threat_Intelligence["Blocklists / IOCs / Reputation Data"]
     end
-    subgraph "Data Tier"
-        DB_Inst[(PostgreSQL)]
-        Cache[(Redis)]
-    end
-    subgraph "Enforcement Nodes"
-        Azure_FW[Azure Firewall]
-        AWS_FW[AWS Firewall]
-        K8s_NP[K8s Policies]
-    end
-    UI --> API_Svc
-    API_Svc --> DB_Inst
-    API_Svc --> Cache
-    Worker --> Cache
-    API_Svc --> EnforcementNodes
-```
 
-### 3. Frontend to Backend Request Path
-Tracing a policy change request from the manager UI.
+    subgraph IntelligenceEngine["Security Intelligence Hub"]
+        direction TB
+        API["FastAPI Security Gateway"]
+        PolicyOrchestrator["Global Policy & Reconciliation Hub"]
+        Governance_Hub["Compliance & Guardrail Hub"]
+        AIOps_Validator["Drift & Threat Analysis Hub"]
+    end
 
-```mermaid
-sequenceDiagram
-    participant S as Security Analyst
-    participant W as Firewall Web
-    participant A as Policy API
-    participant E as Policy Engine
+    subgraph OperationsPlane["Distributed Security Ecosystem"]
+        direction TB
+        ManagedFirewallNodes["Managed Standardized Enforcement Nodes"]
+        ActiveRunbooks["Managed Automated Remediation Runbooks"]
+        PerimeterSinks["Managed Infrastructure Delivery Hubs"]
+    end
+
+    subgraph OperationsHub["Institutional Data Hub"]
+        direction TB
+        Scorecard["Security Maturity Scorecard"]
+        Analytics["Security Flow & Threat Velocity Stats"]
+        Audit["Forensic Security Metadata Lake"]
+    end
+
+    subgraph DevOps["Cloud-Native-Firewall-as-Code Framework"]
+        direction TB
+        TF["Terraform Security Modules"]
+        DriftBot["Productivity & Config Drift Validator"]
+        ChatOps["Measurement Operations Hub"]
+    end
+
+    %% Flow Arrows
+    SecurityIngress -->|1. Submit Telemetry| API
+    API -->|2. Orchestrate Security| PolicyOrchestrator
+    PolicyOrchestrator -->|3. Apply Privacy Guard| Governance_Hub
+    Governance_Hub -->|4. Assess Drift| AIOps_Validator
     
-    S->>W: Update "Allow Egress" Rule
-    W->>A: PUT /policies/123
-    A->>A: Validate Schema & Risk Score
-    A->>E: Trigger Deployment Job
-    E-->>A: Job ID: 555
-    A-->>W: Render "In-Progress" State
+    AIOps_Validator -->|5. Execute Enforcement| OperationsPlane
+    OperationsPlane -->|6. Notify Status| ChatOps
+    API -->|7. Visualize Health| Scorecard
+    
+    Scorecard -->|8. Track Maturity| Analytics
+    Scorecard -->|9. Record Performance| Audit
+    
+    TF -->|10. Provision Backbone| IntelligenceEngine
+    DriftBot -->|11. Inject Friction Risk| PolicyOrchestrator
+    Audit -->|12. Improve Operations| ManagedFirewallNodes
+
+    %% Styling
+    classDef ingress fill:#f5f5f5,stroke:#616161,stroke-width:2px;
+    classDef intel fill:#e8eaf6,stroke:#1a237e,stroke-width:2px;
+    classDef operations fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef ops fill:#ede7f6,stroke:#311b92,stroke-width:2px;
+    classDef devops fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
+
+    class SecurityIngress ingress;
+    class IntelligenceEngine intel;
+    class OperationsPlane operations;
+    class OperationsHub ops;
+    class DevOps devops;
 ```
 
-### 4. Multi-Cloud Firewall Control Plane
-Managing diverse security providers through a unified abstraction.
+### 2. The Firewall Lifecycle Flow
+The continuous path of a cloud-native firewall platform from initial integration (authorize) and aggregation (authenticate) to active analysis (inspect), optimization (enforce), and institutional forensic auditing (scorecard).
+
+```mermaid
+graph LR
+    Integrate["Integrate (Authorize)"] --> Aggregate["Aggregate (Authenticate)"]
+    Aggregate --> Analyze["Analyze (Inspect)"]
+    Analyze --> Optimize["Optimize (Enforce)"]
+    Optimize --> Report["Report & Scorecard"]
+```
+
+### 3. Distributed Security Topology
+Strategically orchestrating standardized security across global regions, diverse cloud architectures, and multi-cloud targets, providing a unified institutional view of global security health and operational readiness.
+
+```mermaid
+graph LR
+    RegionA["Edge: Azure Firewall (Primary) Ingress"] -->|Sync| Hub["Unified Data Hub"]
+    BU["Hub: AWS Network FW (Secondary) Hub"] -->|Sync| Hub
+    Cloud["Site: K8s NetworkPolicy (Tertiary) SaaS"] -->|Sync| Hub
+    Hub --- Logic["Global Security Engine"]
+```
+
+### 4. Security Hub & High-Trust Data Plane Protection Flow
+Executing complex logic for securing the bridge between security owners and technical teams, ensuring every organizational identity is verified, finding-level privacy is maintained, and every security access is according to institutional standards.
 
 ```mermaid
 graph TD
-    Unified[Unified Policy Schema] --> Adapter_Azure[Azure FW Adapter]
-    Unified --> Adapter_AWS[AWS FW Adapter]
-    Unified --> Adapter_K8s[K8s NP Adapter]
-    Adapter_Azure --> Azure_Resource[Azure Resource Manager]
-    Adapter_AWS --> AWS_SDK[AWS Network Firewall API]
-    Adapter_K8s --> K8s_API[K8s API Server]
+    SecurityData["Usage: Finding & Perimeter Data"] --> Bridge["Rule: Guardrail Hub"]
+    Bridge --> PolicyMap["Rule: Security & Policy Map"]
+    PolicyMap -->|Evaluate| Context["PATH: Global Security View"]
+    Context --- Estimate["Security Integrity Score"]
 ```
 
-### 5. Distributed Enforcement Topology
-Protecting workloads at every layer of the multi-cloud estate.
+### 5. Multi-Cloud Security Federation & Governance Flow
+Automatically managing unified security standards across global regions and diverse cloud tenants, ensuring institutional data residency and privacy boundaries by default.
 
 ```mermaid
 graph LR
-    Edge[Cloud Edge: WAF] --> Perimeter[Perimeter: Cloud FW]
-    Perimeter --> Transit[Transit: Hub FW]
-    Transit --> Workload[Workload: K8s NP / NSG]
+    Org["Global Modernization System"] -->|Apply| Guard["Governance Isolation Hub"]
+    Guard -->|Violate| Alert["Remediation Latency Alert"]
+    Guard -->|Pass| Verify["Status: Governed Security"]
+    Verify --- Audit["Isolation Compliance Log"]
 ```
 
-### 6. Regional Deployment Model
-Ensuring security low-latency and regional compliance.
+### 6. Encryption & Perimeter Protection Flow (Security Standard)
+Managing the lifecycle of a security request, automatically enforcing institutional TLS 1.3 and resource encryption standards as required by security policy, ensuring zero-latency security confidence.
+
+```mermaid
+graph LR
+    SecurityReq["Dashboard Access Query"] -->|Check| Gatekeeper["Security Protection Bot"]
+    Gatekeeper -->|Verify| TLS["TLS 1.3 & Resource Encryption Check"]
+    TLS -->|Pass| Admit["Status: Secure Security Traffic"]
+    Admit --- Audit["Security Compliance Log"]
+```
+
+### 7. Institutional Security Maturity Scorecard
+Grading organizational performance based on key indicators: Policy Consistency Index, Zero-Trust Adoption Index, and Threat Mitigation Scores.
 
 ```mermaid
 graph TD
-    TM[Global Traffic Manager] --> US[US Security Region]
-    TM --> EU[EU Security Region]
-    US --> US_Clusters[Managed Clusters US]
-    EU --> EU_Clusters[Managed Clusters EU]
+    Post["Security Health: 99%"] --> Risk["Delivery Gap: 1%"]
+    Post --- C1["Consistency Index (100%)"]
+    Post --- C2["Security Adoption (98%)"]
 ```
 
-### 7. DR Failover Model
-Business continuity for the mission-critical security control plane.
-
-```mermaid
-graph LR
-    Primary[Active: East US] -->|Replication| Secondary[Standby: West US]
-    Secondary -->|Heartbeat| Primary
-    Primary --> Failover{Critical Failure?}
-    Failover -->|Yes| Secondary
-```
-
-### 8. API Gateway Architecture
-Securing and throttling the firewall management interface.
+### 8. Identity & RBAC for Security Governance
+Managing fine-grained access to security hubs, provisioning workers, and audit logs between CISOs, SOC Leads, and Network Security Engineers.
 
 ```mermaid
 graph TD
-    Req[Incoming Request] --> Auth[OIDC / SSO]
-    Auth --> Throttling[Rate Limiter]
-    Throttling --> Routing[Path-Based Router]
+    CISO["CISO"] --> Hub["Manage Organization rules"]
+    Lead["SOC Lead"] --> Exec["Execute scoring policies"]
+    Engineer["Security Engineer"] --> Audit["Verify Posture Proofs"]
 ```
 
-### 9. Queue Worker Architecture
-Handling the heavy lifting of global policy synchronization and threat feed ingestion.
+### 9. IaC Deployment: Cloud-Native-Firewall-as-Code Framework
+Using modular Terraform to deploy and manage the versioned distribution of the security tracking hubs, enforcement protection workers, and forensic metadata lakes.
 
 ```mermaid
 graph LR
-    Event[Policy Deployment] --> Redis[Redis Queue]
-    Redis --> W1[Worker Node 1]
-    Redis --> W2[Worker Node 2]
-    W1 --> Notify[Slack / Teams Alert]
+    HCL["Infrastructure Code"] --> TF["Terraform Apply"]
+    TF --> Engine["Security Control Plane"]
+    Engine --> Clusters["HA Validation Fleet"]
 ```
 
-### 10. Dashboard Analytics Flow
-How real-time threat and compliance metrics are served to leadership.
-
-```mermaid
-graph TD
-    Logs[Firewall Logs] --> Pipeline[Analytics Pipeline]
-    Pipeline --> Metrics[(Metrics Database)]
-    Metrics --> Dashboard[Executive Security UI]
-```
-
-### 11. North-South Traffic Filtering Flow
-The perimeter defense for external traffic entering and leaving the cloud.
+### 10. AIOps Security Drift & Risk Validation Flow
+Using advanced analytics to identify sudden surges in security findings, unauthorized rule changes, suspicious configuration drifts, or unusual delivery pattern changes that could result in institutional risk or audit failure.
 
 ```mermaid
 graph LR
-    Internet[Internet] --> WAF[Cloud WAF]
-    WAF --> EdgeFW[Perimeter Firewall]
-    EdgeFW --> LoadBalancer[Internal Load Balancer]
-    LoadBalancer --> Workload[Application Pods]
+    Drift["Delivery Change Event"] --> Analyzer["Drift Detection Bot"]
+    Analyzer -->|Anomaly| Alert["Security Integrity Alert"]
+    Analyzer -->|Normal| Pass["Status Optimal"]
 ```
 
-### 12. East-West Microsegmentation Model
-Securing pod-to-pod traffic within the same cluster.
+### 11. Metadata Lake for Forensic Security Audit
+Storing long-term records of every security integration event (metadata), every rule executed, and every version history for institutional record-keeping, compliance auditing, and post-provisioning forensics.
 
 ```mermaid
 graph LR
-    SvcA[Frontend Pod] --> Policy[Network Policy: Allow Port 8080]
-    Policy --> SvcB[Backend Pod]
-    SvcB --> Deny[Default Deny All]
-    Deny --> SvcC[Untrusted Pod]
-```
-
-### 13. Kubernetes Network Policy Model
-Declarative security for containerized workloads.
-
-```mermaid
-graph TD
-    Pod[Pod Selector] --> Ingress[Ingress Rules]
-    Pod --> Egress[Egress Rules]
-    Ingress --> From[Allow From: Namespace=Prod]
-    Egress --> To[Allow To: IP=10.0.0.1/32]
-```
-
-### 14. Service Mesh Security Flow
-Identity-based security using mTLS.
-
-```mermaid
-graph LR
-    SvcA[Svc A] --> ProxyA[Sidecar Proxy]
-    ProxyA -->|mTLS| ProxyB[Sidecar Proxy]
-    ProxyB --> SvcB[Svc B]
-    ControlPlane[Istio / Linkerd] --> ProxyA
-```
-
-### 15. Private Endpoint Protection Flow
-Securing access to PaaS services.
-
-```mermaid
-graph LR
-    VNet[Workload VNet] --> PE[Private Endpoint]
-    PE --> Link[Private Link]
-    Link --> SQL[Azure SQL / AWS RDS]
-    PE --> FW[Firewall Policy Inspection]
-```
-
-### 16. DNS Security Workflow
-Preventing data exfiltration via DNS tunneling.
-
-```mermaid
-graph TD
-    Query[DNS Query] --> Resolver[Firewall DNS Proxy]
-    Resolver --> Check[Threat Intelligence Check]
-    Check -->|Clean| Resolve[Forward to Upstream]
-    Check -->|Malicious| Sinkhole[Block & Sinkhole]
-```
-
-### 17. Egress Control Model
-Strictly limiting where applications can send data.
-
-```mermaid
-graph LR
-    App[Internal App] --> FW[Egress Firewall]
-    FW -->|Allow| Update[github.com]
-    FW -->|Deny| C2[Known C2 Server]
-```
-
-### 18. Hub-Spoke Firewall Topology
-Centralizing security for multiple environments.
-
-```mermaid
-graph TD
-    Hub[Hub VNet: Firewall] --> SpokeA[Spoke: Production]
-    Hub --> SpokeB[Spoke: Staging]
-    SpokeA <--> Hub <--> SpokeB
-```
-
-### 19. Transit Gateway Security Model
-Securing cross-account traffic in AWS.
-
-```mermaid
-graph LR
-    VPC_A[VPC A] --> TGW[Transit Gateway]
-    TGW --> SecurityVPC[Security VPC: Firewall]
-    SecurityVPC --> TGW
-    TGW --> VPC_B[VPC B]
-```
-
-### 20. Multi-Region Security Routing Flow
-Consistent security across geographic boundaries.
-
-```mermaid
-graph LR
-    Region1[US East] <--> Peer[VNet / VPC Peering]
-    Peer <--> Region2[EU West]
-    Region1 --> Policy1[Local FW Policy]
-    Region2 --> Policy2[Local FW Policy]
-```
-
-### 21. Policy Authoring Workflow
-The collaborative process of rule creation.
-
-```mermaid
-graph LR
-    Dev[Developer] --> Request[Rule Request]
-    Request --> Security[Security Review]
-    Security --> Approval[Approval Flow]
-    Approval --> Engine[Policy Deployment]
-```
-
-### 22. Rule Approval Lifecycle
-Multi-stage gates for security changes.
-
-```mermaid
-stateDiagram-v2
-    [*] --> Draft
-    Draft --> PendingReview
-    PendingReview --> Approved
-    PendingReview --> Rejected
-    Approved --> Deployed
-    Deployed --> [*]
-```
-
-### 23. Change Management Flow
-Auditable transitions of security state.
-
-```mermaid
-graph TD
-    Change[Change ID] --> Audit[Audit Trail]
-    Audit --> Diff[Policy Diff]
-    Diff --> SignOff[Executive Sign-off]
-```
-
-### 24. Drift Detection Workflow
-Detecting unauthorized out-of-band changes.
-
-```mermaid
-graph LR
-    Current[Actual FW State] --> Comparator[Drift Engine]
-    Desired[Desired Git State] --> Comparator
-    Comparator -->|Mismatch| Alert[Drift Alert]
-```
-
-### 25. Automated Remediation Model
-Self-healing firewall security.
-
-```mermaid
-graph TD
-    Drift[Drift Detected] --> Decision{Auto-Remediate?}
-    Decision -->|Yes| Reapply[Push Desired Policy]
-    Decision -->|No| Ticket[Open ITSM Ticket]
-```
-
-### 26. Exception Handling Workflow
-Managing temporary or justified risk.
-
-```mermaid
-graph LR
-    Exception[Request Exception] --> Review[Risk Assessment]
-    Review --> Expiry[Set Expiry Date]
-    Expiry --> Monitor[Continuous Monitoring]
-```
-
-### 27. Compliance Evidence Generation Flow
-Automating the "Proof of Security."
-
-```mermaid
-graph TD
-    Rules[Firewall Rules] --> Mapper[Control Mapper]
-    Mapper --> Evidence[PCI/SOC2 Evidence Doc]
-    Evidence --> Auditor[External Auditor]
-```
-
-### 28. Rule Versioning Lifecycle
-Rollback capabilities for network security.
-
-```mermaid
-graph LR
-    V1[v1.0.0] --> V2[v1.1.0]
-    V2 --> Rollback[Revert to v1.0.0]
-```
-
-### 29. Tag-Based Policy Model
-Dynamic security for dynamic workloads.
-
-```mermaid
-graph LR
-    Tag[Tag: Environment=Prod] --> Policy[Apply Prod Rules]
-    NewInstance[New VM] --> Tag
-```
-
-### 30. Least Privilege Network Model
-Enforcing the minimum necessary access.
-
-```mermaid
-graph TD
-    Default[Default Deny] --> Audit[Traffic Audit]
-    Audit --> Specific[Specific Allow Rules]
-```
-
-### 31. Threat Intel Ingestion Flow
-Feeding blocklists into the firewall.
-
-```mermaid
-graph LR
-    Feed[CrowdStrike / Talos] --> Ingest[Threat Worker]
-    Ingest --> Dedupe[Deduplication]
-    Dedupe --> Blocklist[Active Blocklist]
-```
-
-### 32. IOC Blocklist Update Lifecycle
-Continuous protection against known bad actors.
-
-```mermaid
-graph TD
-    NewIOC[New IP/Domain IOC] --> Validate[Verify IOC]
-    Validate --> Deploy[Global FW Push]
-```
-
-### 33. Incident Response Workflow
-The SOC path for responding to network threats.
-
-```mermaid
-graph LR
-    Detect[Intrusion Detected] --> Triage[Initial Triage]
-    Triage --> Isolate[Network Isolation]
-    Isolate --> Recovery[Clean & Restore]
-```
-
-### 34. Suspicious Traffic Escalation Flow
-From automated detection to human analyst.
-
-```mermaid
-graph TD
-    Alert[Low Confidence Alert] --> ML[ML Refinement]
-    ML -->|High Risk| SOC[Tier 2 Analyst]
-```
-
-### 35. SOC Triage Model
-Standardized handling of network security events.
-
-```mermaid
-graph LR
-    Event[Security Event] --> Playbook[Triage Playbook]
-    Playbook --> Result[False Positive / True Incident]
-```
-
-### 36. DDoS Protection Workflow
-Responding to volumetric attacks.
-
-```mermaid
-graph TD
-    Spike[Traffic Spike] --> Scrubbing[Traffic Scrubbing]
-    Scrubbing --> Clean[Clean Traffic to App]
-```
-
-### 37. Malware Callback Blocking Flow
-Preventing command-and-control communication.
-
-```mermaid
-graph LR
-    Bot[Infected Pod] --> C2[C2 Request]
-    C2 --> FW[Firewall: Blocklist Match]
-    FW --> Block[Request Dropped & Logged]
-```
-
-### 38. Lateral Movement Detection Model
-Detecting the "east-west" attacker.
-
-```mermaid
-graph TD
-    Pattern[Unusual Peer-to-Peer] --> Score[Anomaly Score]
-    Score --> Threshold[Alert Threshold]
-```
-
-### 39. Exfiltration Prevention Model
-Detecting large unauthorized data transfers.
-
-```mermaid
-graph LR
-    Data[Large Data Flow] --> Monitor[Bandwidth Monitor]
-    Monitor --> Sensitive[Check Destination]
-```
-
-### 40. Security Analytics Pipeline
-The data engine behind the dashboard.
-
-```mermaid
-graph TD
-    Logs[Flow Logs] --> Spark[Streaming Analytics]
-    Spark --> Store[Aggregated Security Data]
-```
-
-### 41. Metrics Pipeline
-Monitoring the health of the security control plane.
-
-```mermaid
-graph LR
-    API[Metrics] --> Prom[Prometheus]
-    Prom --> Grafana[Grafana]
-```
-
-### 42. Logging Architecture
-Auditable logs for every firewall action.
-
-```mermaid
-graph TD
-    Log[Audit Log] --> Hub[Event Hub / Kinesis]
-    Hub --> SIEM[Splunk / Sentinel]
-```
-
-### 43. Tracing Model
-Observing cross-service security requests.
-
-```mermaid
-sequenceDiagram
-    Portal->>API: Deploy Rule
-    API->>Worker: Sync to Azure
-    Worker->>Azure: Apply Policy
-```
-
-### 44. SLA Monitoring Flow
-Guaranteeing security availability.
-
-```mermaid
-graph LR
-    Probe[Health Probe] --> Status[SLA Dashboard]
-```
-
-### 45. Release Pipeline Workflow
-Automated delivery of the security platform.
-
-```mermaid
-graph LR
-    Git[Code Push] --> CI[Build & Test]
-    CI --> CD[Deploy to Sec-VNet]
+    Provision["Sync Interaction Event"] --> Stream["Forensic Stream"]
+    Stream --> Lake["Security Metadata Lake"]
+    Lake --> Trends["Security Efficiency Trends"]
 ```
 
 ---
 
-## 🔬 Security Operations (SecOps) Runbook
+## 🏛️ Core Governance Pillars
 
-### 1. New Rule Authoring
-All new firewall rules MUST follow the "Least Privilege" standard:
-- **Scope**: Use CIDR ranges or Service Tags, never `*`.
-- **Description**: Must include a valid JIRA/ServiceNow ticket ID.
-- **Review**: Must be approved by a peer security analyst.
-
-### 2. Responding to Drift
-When the "Drift Detected" alert fires:
-1. Verify the change source via CloudTrail / Activity Log.
-2. If unauthorized, click **"Remediate"** in the Portal to restore the Git-backed state.
-3. Initiate an incident report if the change appears malicious.
+1.  **Unified Foundation Coordination**: Maximizing resilience by centralizing all security measurement through a single institutional plane.
+2.  **Automated Perimeter Provisioning**: Eliminating "manual rule" scenarios through proactive orchestration and pattern verification.
+3.  **Sequential Security Intelligence**: Ensuring zero-interruption operations through dependency-aware security-driven data engineering.
+4.  **Zero-Trust Identity Protection**: Automatically enforcing identity-based access, data-at-rest encryption, and policy evaluation across all assurance tiers.
+5.  **Autonomous Operations Logic**: Guaranteeing reliability through automated industry-specific effectiveness monitoring runbooks.
+6.  **Full Security Auditability**: Immutable recording of every rule change and security provision for institutional forensics.
 
 ---
 
-## 🚦 Getting Started
+## 🛠️ Technical Stack & Implementation
 
-### 1. Prerequisites
-- **Azure CLI / AWS CLI** configured.
-- **Terraform** (v1.5+).
-- **Docker Desktop**.
-- **Python 3.11+**.
+### Security Engine & APIs
+*   **Framework**: Python 3.11+ / FastAPI.
+*   **Performance Engine**: Custom Python-based logic for multi-cloud rule reconciliation and DORA-style security metrics.
+*   **Integrations**: Native connectors for Azure Firewall, AWS Network Firewall, and K8s NetworkPolicies.
+*   **Persistence**: PostgreSQL (Security Ledger) and Redis (Live Enforcement State).
+*   **Auth Orchestrator**: Federated OIDC/SAML for least-privilege security management access.
 
-### 2. Local Setup
+### Governance Dashboard (UI)
+*   **Framework**: React 18 / Vite.
+*   **Theme**: Dark, Slate, Indigo (Modern high-fidelity productivity aesthetic).
+*   **Visualization**: D3.js for delivery topologies and Recharts for threat velocity analytics.
+
+### Infrastructure & DevOps
+*   **Runtime**: AWS EKS or Azure Kubernetes Service (AKS) for management plane.
+*   **Measurement Hub**: Managed event sourcing for immutable productivity timeline reconstruction.
+*   **IaC**: Modular Terraform for deploying the security landing zone and validation fleet.
+
+---
+
+## 🏗️ IaC Mapping (Module Structure)
+
+| Module | Purpose | Real Services |
+| :--- | :--- | :--- |
+| **`infrastructure/security_hub`** | Central management plane | EKS, PostgreSQL, Redis |
+| **`infrastructure/enforcers`** | Distributed perimeter provisioners | Azure, AWS, GCP APIs |
+| **`infrastructure/policy_pipes`** | Data Ingestion Hubs | Webhooks, Lambda |
+| **`infrastructure/auditing`** | Forensic modernization sinks | S3, Athena, Quicksight |
+
+---
+
+## 🚀 Deployment Guide
+
+### Local Principal Environment
 ```bash
-# Clone the repository
-git clone https://github.com/Devopstrio/cloud-native-firewall.git
+# Clone the Cloud-Native Firewall repository
+git clone https://github.com/devopstrio/cloud-native-firewall.git
 cd cloud-native-firewall
 
-# Setup environment
+# Configure environment
 cp .env.example .env
 
-# Launch core services
-docker-compose up --build
+# Launch the Security stack
+make init
+
+# Trigger a mock security update and automated guardrail validation simulation
+make simulate-firewall
 ```
-Access the management portal at `http://localhost:3000`.
+
+Access the Management Portal at `http://localhost:3000`.
 
 ---
 
-## 🛡️ Governance & Security
-- **Identity**: Multi-factor authentication required for all policy changes.
-- **Encryption**: All policies and secrets are encrypted with customer-managed keys (CMK) at rest.
-- **Compliance**: The platform is pre-mapped to **NIST 800-53** and **CIS Benchmarks**.
+## 📜 License
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-<sub>&copy; 2026 Devopstrio &mdash; Engineering the Future of Network Security.</sub>
+<div align="center">
+  <p>© 2026 Devopstrio. All rights reserved.</p>
+</div>
